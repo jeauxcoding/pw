@@ -1,0 +1,55 @@
+title: "Our Services"
+
+HeadingDC: "🔬 Discovery"
+s1Discovery: "Project Scope"
+s2Discovery: "Project Management"
+s3Discovery: "Full Website Audit"
+s4Discovery: "Branding Sprints"
+s5Discovery: "Surveys & Feedbacks"
+s6Discovery: "Customers Workshops"
+
+
+HeadingDG: "📐 Design"
+s1Design: "Logo & Brand Style Guide"
+s2Design: "Design Sprints"
+s3Design: "UX/UI Design"
+s4Design: "Wireframing"
+s5Design: "Prototyping"
+s6Design: "Design System"
+s7Design: "Motion Design"
+s8Design: "Video & Photography"
+
+
+HeadingDev: "🖥️  Development"
+s1Development: "Logo & Brand Style Guide"
+s2Development: "Design Sprints"
+s3Development: "UX/UI Design"
+s4Development: "Wireframing"
+s5Development: "Prototyping"
+s6Development: "Design System"
+s7Development: "Motion Design"
+s8Development: "Video & Photography"
+
+HeadingTest: "🔧 Usability Testing"
+s1Testing: "Test Cases Setup"
+s2Testing: "Use Case Testings"
+s3Testing: "Heatmap Setup & Accessibility"
+s4Testing: "Copywriting & Editing"
+
+
+HeadingSEO: "💸 SEO & Conversions"
+s1SEO: "Content Strategy"
+s2SEO: "Marketing Campaigns"
+s3SEO: "Launch Strategy"
+s4SEO: "Site Analytics "
+s5SEO: "Audience Tracking and Setup"
+s6SEO: "SEO & Performance"
+
+
+HeadingMain: "🎯 Maintenance"
+s1Main: "Content Strategy"
+s2Main: "Marketing Campaigns"
+s3Main: "Launch Strategy"
+s4Main: "Site Analytics "
+s3Main: "Audience Tracking and Setup"
+s4Main: "SEO & Performance"

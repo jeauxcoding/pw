@@ -1,12 +1,14 @@
-<footer>
+<footer class="">
+  <div class="wrapper">
+  <div class="grid-pw-col2">
   <div class="nw_letter">
       <form class="" action="index.html" method="post">
           <h3>{{ site.data.footers.flist.footer.NewsletterTitle }}</h3>
           <input type="email" name="email" value="email">
           <button type="button" name="button">Send</button>
       </form>
-
-      <div class="footer-list">
+    </div>
+      <div class="footer-list grid-pw-col3">
         <div class="footeritem">
           <h4>{{ site.data.footers.flist.footer.HeadingTitle }}</h4>
           <li><a href="{{ site.data.footers.flist.footer.EmailUrl }}">{{ site.data.footers.flist.footer.ContactTitle }}</a></li>
@@ -30,3 +32,5 @@
         </div>
       </div>
   </div>
+  </div>
+</footer>

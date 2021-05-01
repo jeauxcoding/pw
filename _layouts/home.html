@@ -1,11 +1,17 @@
 {% include doctype-open.html %}
 {% include site-header.html %}
-{% include nav.html %}
-
-{% include section_countdown.html %}
-{% include section_consultant.html %}
-{% include section_teams.html %}
-{% include section_services.html %}
-{% include section_contact.html %}
-{% include site-footer.html %}
+<div class="container">
+    {% include nav.html %}
+    {% include section_countdown.html %}
+    {% include line.html %}
+    {% include section_consultant.html %}
+    {% include line.html %}
+    {% include section_teams.html %}
+    {% include line.html %}
+    {% include section_services.html %}
+    {% include line.html %}
+    {% include section_contact.html %}
+    {% include line.html %}
+    {% include site-footer.html %}
+</div>
 {% include doctype-closed.html %}

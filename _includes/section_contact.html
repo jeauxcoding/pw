@@ -2,21 +2,43 @@
     <div class="wrapper">
         <div class="contant">
           <div class="heading">
-            <h2>{{ site.data.forms.form.HT}}</h2>
-            <p>{{ site.data.forms.form.PT}}</p>
+            <div class="article">
+              <h2>{{ site.data.forms.form.HT}}</h2>
+              <p>{{ site.data.forms.form.PT}}</p>
+            </div>
           <div>
 
           <form>
-            <div class="inline">
+            <div style="display:inline-block;">
               <input placeholder="Full Name" type="text" name="" value="">
               <input placeholder="Email Address" type="email" name="" value="">
             </div>
-            <div class="inline">
+
+            <div style="display:inline-block;">
               <input placeholder="Phone Number" type="text" name="" value="">
               <input placeholder="Company Website" type="url" name="" value="">
             </div>
 
+            <input placeholder="Company Address" type="address" name="" value="">
+
+            <div class="schedulebtb">
+              <a href="#">Click here to schedule a appointment.</a>
+            </div>>
+
             <textarea placeholder="A brief description." name="name" rows="8" cols="80"></textarea>
+
+            <label>
+              I would like to schedule a follow-up meeting after receiving the UX audit and proposal.
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+
+            <label>
+              Please send us an NDA for a confidential consultation.
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+
             <button type="button" name="button">Send</button>
           </form>
         </div>

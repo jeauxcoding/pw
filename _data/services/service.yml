@@ -21,14 +21,11 @@ s8Design: "Video & Photography"
 
 
 HeadingDev: "🖥️  Development"
-s1Development: "Logo & Brand Style Guide"
-s2Development: "Design Sprints"
-s3Development: "UX/UI Design"
-s4Development: "Wireframing"
-s5Development: "Prototyping"
-s6Development: "Design System"
-s7Development: "Motion Design"
-s8Development: "Video & Photography"
+s1Development: "Webflow Development"
+s2Development: "Design Deployment"
+s3Development: "eCommerce & Product Setup"
+s4Development: "Third-Party Apps Integration"
+
 
 HeadingTest: "🔧 Usability Testing"
 s1Testing: "Test Cases Setup"
@@ -47,9 +44,7 @@ s6SEO: "SEO & Performance"
 
 
 HeadingMain: "🎯 Maintenance"
-s1Main: "Content Strategy"
-s2Main: "Marketing Campaigns"
-s3Main: "Launch Strategy"
-s4Main: "Site Analytics "
-s3Main: "Audience Tracking and Setup"
-s4Main: "SEO & Performance"
+s1Main: "Monthly Analysis"
+s2Main: "Website Monitoring"
+s3Main: "Insight Tracking"
+s4Main: "Customer Support"

@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 * {
-  font-family: 'PT Sans', sans-serif;
-  box-sizing: content-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,6 +35,10 @@ a {
   font-family: 'PT Sans', sans-serif;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 button {
   background-color: #1B1B1B;
   font-weight: bold;
@@ -44,7 +47,7 @@ button {
   text-transform: uppercase;
   color: #FDFDFD;
   border: none;
-  padding: 14px 27px;
+  padding: 20px 27px;
 }
 
 li {
@@ -141,11 +144,8 @@ li {
 
 .heading h2 {
   font-size: 25pt !important;
+  font-family: 'PT Serif', sans-serif;
   font-weight: bold;
-}
-
-#services .heading {
-   height: 10vh !important;
 }
 
 .services h3 {
@@ -156,8 +156,23 @@ li {
 
 .services .sitems li {
   font-family: 'PT Sans', sans-serif;
+  line-height: 33px;
+  font-size: 1.3rem;
+
 }
 
+.footeritem li {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.footeritem a {
+  text-decoration: none;
+}
+
+.footeritem h4 {
+  margin-bottom: 14px;
+}
 
 .team {
   /* width: 951px; */
@@ -175,6 +190,14 @@ li {
 
 .social-links {
   display: flex;
+}
+
+.social-links a:last-child {
+  padding-left: 1em;
+}
+
+.social-links a:first-child {
+  padding-right: 1em;
 }
 
 #team .tlist {
@@ -237,16 +260,21 @@ textarea {
   width: auto;
 }
 
+span {
+  text-align: left;
+}
+
 /* pretty radio */
 label > input[type="checkbox"] {
   display: none;
+  vertical-align:middle;
 }
 label > input[type="checkbox"] + *::before {
   content: "";
   display: inline-block;
-  vertical-align: bottom;
-  width: 1rem;
-  height: 1rem;
+  vertical-align: middle;
+  width: 2rem;
+  height: 2rem;
   margin-right: 0.3rem;
   border-radius: 10%;
   border-style: solid;
@@ -254,7 +282,7 @@ label > input[type="checkbox"] + *::before {
   border-color: gray;
 }
 label > input[type="checkbox"]:checked + * {
-  color: teal;
+
 }
 label > input[type="checkbox"]:checked + *::before {
   content: "✓";
@@ -271,7 +299,7 @@ fieldset {
 }
 label > input[type="checkbox"] + * {
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 0;
 }
 
 .nw_letter {

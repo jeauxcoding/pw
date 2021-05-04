@@ -1,3 +1,25 @@
+<script>
+    function onAddress() {
+      var checkBox = document.getElementById("myCheck");
+      var text = document.getElementById("text");
+      if (checkBox.checked == true){
+        text.style.display = "none";
+      } else {
+         text.style.display = "block";
+      }
+    }
+
+    function onBook() {
+      var checkBox = document.getElementById("mybooked");
+      var text = document.getElementById("booked");
+      if (checkBox.checked == true){
+        text.style.display = "none";
+      } else {
+        text.style.display = "block";
+      }
+    }
+</script>
+
 <section id="contact">
     <div class="wrapper">
         <div class="contant">
@@ -19,24 +41,24 @@
               <input placeholder="Company Website" type="url" name="" value="">
             </div>
 
-            <input placeholder="Company Address" type="address" name="" value="">
+            <input id="text" placeholder="Company Address" type="address" name="" value="" />
 
-            <div class="schedulebtb">
+            <div id="booked" class="schedulebtb">
               <a href="#">Click here to schedule a appointment.</a>
             </div>
 
-            <textarea placeholder="A brief description." name="name" rows="8" cols="80"></textarea>
+            <textarea placeholder="Tell us a bit more what you are looking for." name="name" rows="8" cols="80"></textarea>
 
             <li>
               <label>
-                   <input type="checkbox" name="checkbox" value="" />
+                   <input type="checkbox" id="mybooked" name="checkbox" value="" onclick="onBook()" />
                    <span>I would like to schedule a follow-up meeting after receiving the UX audit and proposal.</span>
               </label>
             </li>
 
             <li>
                <label>
-                   <input type="checkbox" name="checkbox" value="" />
+                   <input type="checkbox" id="myCheck" name="checkbox" value="" onclick="onAddress()" />
                    <span>Please send us an NDA for a confidential consultation.</span>
                </label>
              </li>

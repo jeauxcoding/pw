@@ -178,6 +178,7 @@ li {
 
 .footeritem h4 {
   margin-bottom: 14px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .team {
@@ -228,6 +229,10 @@ form {
   max-width: 866px;
   width: 100%;
   text-align: left;
+}
+
+form, button {
+  margin-top: 5px;
 }
 
 input {
@@ -395,4 +400,8 @@ div .nw_letter {
     margin-bottom: 35px;
   }
 
+  .inlineE {
+    display: flex;
+    flex-direction: column;
+  }
 }

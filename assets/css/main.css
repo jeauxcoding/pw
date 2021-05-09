@@ -255,22 +255,28 @@ input[ type="address" ] {
   width: 100% !important;
 }
 
+.showthis {
+  /* display:  none; */
+}
+
 .schedulebtb {
+  background-color: #1B1B1B;
+  color: white;
+  margin-bottom: 19px;
   padding: 1em 0px;
-  background-color: #D3D3D3;
   text-align: center;
 }
 
 textarea {
   font-family: 'PT Sans', sans-serif;
-  margin-top: 35px;
+  margin-top: 5px;
   width: 100%;
   padding: 14px 22px;
   font-size: 18px;
   border: 1px solid #D3D3D3;
 }
 
-.inlineE {
+.form-inline {
   display: flex;
   align-items: end;
   width: 100%;
@@ -399,8 +405,7 @@ div .nw_letter {
     margin-top: 35px;
     margin-bottom: 35px;
   }
-
-  .inlineE {
+  .form-inline {
     display: flex;
     flex-direction: column;
   }

@@ -1,12 +1,9 @@
 title: "Our Services"
 
 HeadingDC: "🔬 Discovery"
-s1Discovery: "Project Scope"
-s2Discovery: "Project Management"
-s3Discovery: "Full Website Audit"
-s4Discovery: "Branding Sprints"
+s3Discovery: "User Researsh"
+s4Discovery: "Business Goals"
 s5Discovery: "Surveys & Feedbacks"
-s6Discovery: "Customers Workshops"
 
 
 HeadingDG: "📐 Design"
@@ -15,14 +12,14 @@ s2Design: "Design Sprints"
 s3Design: "UX/UI Design"
 s4Design: "Wireframing"
 s5Design: "Prototyping"
-s6Design: "Design System"
+s6Design: "Design Workshop"
 s7Design: "Motion Design"
 s8Design: "Video & Photography"
 
 
 HeadingDev: "🖥️  Development"
 s1Development: "Webflow Development"
-s2Development: "Design Deployment"
+s2Development: "Web Development"
 s3Development: "eCommerce & Product Setup"
 s4Development: "Third-Party Apps Integration"
 
@@ -35,11 +32,9 @@ s4Testing: "Copywriting & Editing"
 
 
 HeadingSEO: "💸 SEO & Conversions"
-s1SEO: "Content Strategy"
-s2SEO: "Marketing Campaigns"
+s2SEO: "Marketing Researsh"
 s3SEO: "Launch Strategy"
 s4SEO: "Site Analytics "
-s5SEO: "Audience Tracking and Setup"
 s6SEO: "SEO & Performance"
 
 
@@ -47,4 +42,3 @@ HeadingMain: "🎯 Maintenance"
 s1Main: "Monthly Analysis"
 s2Main: "Website Monitoring"
 s3Main: "Insight Tracking"
-s4Main: "Customer Support"

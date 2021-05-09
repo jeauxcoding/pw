@@ -1,24 +1,13 @@
-<script>
-    function onAddress() {
-      var checkBox = document.getElementById("myCheck");
-      var text = document.getElementById("text");
-      if (checkBox.checked == true){
-        text.style.display = "none";
-      } else {
-         text.style.display = "block";
-      }
-    }
+<!-- <script>
+  $(function() {
+    $('.trigger').change(function() {
+      $(this).next('.showthis').toggle(this.checked);
+    })
+  });
+</script> -->
 
-    function onBook() {
-      var checkBox = document.getElementById("mybooked");
-      var text = document.getElementById("booked");
-      if (checkBox.checked == true){
-        text.style.display = "none";
-      } else {
-        text.style.display = "block";
-      }
-    }
-</script>
+
+
 
 <section id="contact">
     <div class="wrapper">
@@ -30,40 +19,41 @@
             </div>
           <div>
 
-          <form>
-            <div class="inlineE">
-              <input placeholder="Full Name" type="text" name="" value="">
-              <input placeholder="Email Address" type="email" name="" value="">
-            </div>
+          <form name="submit-to-google-sheet">
+              <div class="form-inline">
+                  <input name="name" placeholder="Full Name" type="name"  required />
+                  <input name="email" placeholder="Email Address" type="email"  required />
+              </div>
 
-            <div class="inlineE">
-              <input placeholder="Phone Number" type="text" name="" value="">
-              <input placeholder="Company Website" type="url" name="" value="">
-            </div>
+              <div class="form-inline">
+                  <input name="phone" placeholder="Phone Number" type="phone"  required />
+                  <input name="website" placeholder="Company Website" type="url"   required />
+              </div>
 
-            <input id="text" placeholder="Company Address" type="address" name="" value="" />
+              <div class="showthis">
+                  <input name="address" id="text" placeholder="Add Your Company Address" type="address"  />
+              </div>
 
-            <div id="booked" class="schedulebtb">
-              <a href="#">Click here to schedule a appointment.</a>
-            </div>
+              <a href="https://tidycal.com/perceptionworks">
+                <div id="booked" class="showthis schedulebtb">
+                    Click here to schedule a appointment.
+                </div>
+              </a>
 
-            <textarea placeholder="Tell us a bit more what you are looking for." name="name" rows="8" cols="80"></textarea>
+             <textarea name="message" placeholder="Tell us a bit more what you are looking for." name="name" rows="8" cols="80"></textarea>
 
-            <li>
-              <label>
-                   <input type="checkbox" id="mybooked" name="checkbox" value="" onclick="onBook()" />
-                   <span>I would like to schedule a follow-up meeting after receiving the UX audit and proposal.</span>
-              </label>
-            </li>
 
-            <li>
-               <label>
-                   <input type="checkbox" id="myCheck" name="checkbox" value="" onclick="onAddress()" />
-                   <span>Please send us an NDA for a confidential consultation.</span>
-               </label>
-             </li>
+             <!-- <label>
+                <input class="trigger" type="checkbox" name="checkbox" />
+                <span>I would like to schedule a follow-up meeting after receiving the UX audit and proposal.</span>
+             </label>
 
-            <button type="button" name="button">Send</button>
+             <label>
+                <input class="trigger" type="checkbox" name="checkbox"/>
+                <span>Please send us an NDA for a confidential consultation.</span>
+              </label> -->
+
+            <button type="submit">Send</button>
           </form>
         </div>
     </div>

@@ -370,6 +370,14 @@ div .nw_letter {
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+  .logo {
+    padding: 2em 0px;
+  }
+
+  .site-nav-list .btn {
+    margin: 2em 0px !important;
+  }
+
   p {
     font-size: 13pt;
     line-height: 25px;

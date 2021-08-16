@@ -95,9 +95,12 @@ body {
 .nav__list {
   display: flex;
   font-family: 'HKGorotesk', sans-serif;
-  color: #181024;
   padding: 2em;
   gap: 50px;
+}
+
+.nav__list .nav__item a {
+  color: #181024;
 }
 
 .top__row {

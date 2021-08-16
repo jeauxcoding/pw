@@ -94,6 +94,8 @@ body {
 
 .nav__list {
   display: flex;
+  font-family: 'HKGorotesk', sans-serif;
+  color: #181024;
   padding: 2em;
   gap: 50px;
 }
@@ -141,8 +143,6 @@ p {
 }
 
 .nav-list li {
-  font-family: 'HKGorotesk', sans-serif;
-  color: #181024;
   font-weight: 300;
   padding-left: 65px;
 }

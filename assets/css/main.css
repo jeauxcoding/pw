@@ -116,8 +116,6 @@ p {
 }
 
 
-
-
 .logo {
   padding: 2em;
   font-size: 1.2rem;
@@ -183,7 +181,6 @@ h1 {
   font-family: 'zBold', Zodiak, sans-serif;
   font-weight: bold;
   width: 100%;
-  line-height: normal;
 }
 
 button {

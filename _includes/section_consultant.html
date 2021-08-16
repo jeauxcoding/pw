@@ -1,13 +1,102 @@
-<section id="consultant">
-    <div class="wrapper">
-        <div class="contant">
-          <div class="heading">
-            <div class="article article-sec">
-              <p>{{ site.data.consultants.consultant.description }}</p>
-              <a href="https://www.instagram.com/perception.works/">
-                <button type="button" name="button">Check out our instagram</button>
-              </a>
+<body>
+   <div class="container">
+     <div class="wrapper">
+       <nav class="nav">
+         <span>Perception Works</span>
+
+         <ul class="nav__list">
+           <li class="nav__item"><a href="#" alt="Instagram">Instagram</a></li>
+           <li class="nav__item"><a href="#" alt="Clutch">Clutch</a></li>
+           <li class="nav__item"><a href="#" alt="Websie Accessibe">What is Accessibe?</a></li>
+           <li class="nav__item"><a href="#" alt="Let's Talk">Let's Talk</a></li>
+           <li class="nav__item"><a href="#" alt="Client Portal">Client Portal</a></li>
+         </ul>
+       </nav>
+
+       <a class="button__item" href="#">
+         <button class="button">View The Perceptors</button>
+       </a>
+     </div>
+
+<div class="flex__container-main">
+  <div class="flex__container-left">
+      <div class="top__container">
+        <h1>Bring your minority B2B business ideas to life with our services.</h1>
+        <div class="button_info">
+            <a href="#">
+              <button type="button" name="button">Speak With A Perceptor</button>
+            </a>
+
+            <div class="mobile__work__perview">
+              <img src="{{ site.data.teams.team.ImgWorkHC }}" alt="Hunt For Careers Perview">
+              <div class="mobile__project__details">
+                <li>Brand Development</li>
+                <li>Visual Identity</li>
+                <li>Brand Workshops</li>
+              </div>
             </div>
-          <div>
+        </div>
+      </div>
+
+  <div class="bottom__container">
+        <div class="top__row">
+          <div class="card">
+            <div class="center">
+              <h2>{{ site.data.services.service.1Heading }}</h2>
+              <p>{{ site.data.services.service.1Description }}<p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="center">
+              <h2>{{ site.data.services.service.2Heading }}</h2>
+              <p>{{ site.data.services.service.2Description }}<p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="center">
+              <h2>{{ site.data.services.service.3Heading }}</h2>
+              <p>{{ site.data.services.service.3Description }}<p>
+            </div>
+          </div>
+        </div>
+        <div class="bottom__row">
+          <div class="card">
+            <h2>{{ site.data.services.service.4Heading }}</h2>
+            <p>{{ site.data.services.service.4Description }}<p>
+          </div>
+
+          <div class="card">
+            <div class="center">
+              <h2>{{ site.data.services.service.5Heading }}</h2>
+              <p>{{ site.data.services.service.5Description }}<p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="center">
+              <h2>{{ site.data.services.service.6Heading }}</h2>
+              <p>{{ site.data.services.service.6Description }}<p>
+            </div>
+          </div>
+        </div>
+  </div>
+  </div>
+
+  <div class="flex__container-right">
+    <div class="top__aside">
+      <img src="{{ site.data.teams.team.ImgWorkHC }}" alt="Hunt For Careers Perview">
+      <div class="project_details">
+        <li>Brand Development</li>
+        <li>Visual Identity</li>
+        <li>Brand Workshops</li>
+      </div>
     </div>
-</section>
+
+    <div class="bottom__aside">
+      <h3>BOTTOM ASIDE</h3>
+    </div>
+  </div>
+</div>
+</body>

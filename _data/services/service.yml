@@ -1,44 +1,17 @@
-title: "Our Services"
+1Heading: "User Research"
+1Description: "Providing impactful digital experiences begins with a deep understanding of our users' needs, goals, and problems."
 
-HeadingDC: "🔬 Discovery"
-s3Discovery: "User Researsh"
-s4Discovery: "Business Goals"
-s5Discovery: "Surveys & Feedbacks"
+2Heading: "Sprint Workshops"
+2Description: "During workshops like MVP prioritisation and business canvas, you will gain an understanding of your business and your users."
 
+3Heading: "Branding"
+3Description: "Building a brand that is instantly recognizable and positive in perception is essential to the success of your business."
 
-HeadingDG: "📐 Design"
-s1Design: "Logo & Brand Style Guide"
-s2Design: "Design Sprints"
-s3Design: "UX/UI Design"
-s4Design: "Wireframing"
-s5Design: "Prototyping"
-s6Design: "Design Workshop"
-s7Design: "Motion Design"
-s8Design: "Video & Photography"
+4Heading: "Visual, UI Design"
+4Description: "Innovative interaction design and user interfaces are necessary to create engaging websites and applications."
 
+5Heading: "Web Development"
+5Description: "Providing web-based business solutions and SaaS products with custom websites that are responsive and user-friendly."
 
-HeadingDev: "🖥️  Development"
-s1Development: "Webflow Development"
-s2Development: "Web Development"
-s3Development: "eCommerce & Product Setup"
-s4Development: "Third-Party Apps Integration"
-
-
-HeadingTest: "🔧 Usability Testing"
-s1Testing: "Test Cases Setup"
-s2Testing: "Use Case Testings"
-s3Testing: "Heatmap Setup & Accessibility"
-s4Testing: "Copywriting & Editing"
-
-
-HeadingSEO: "💸 SEO & Conversions"
-s2SEO: "Marketing Researsh"
-s3SEO: "Launch Strategy"
-s4SEO: "Site Analytics "
-s6SEO: "SEO & Performance"
-
-
-HeadingMain: "🎯 Maintenance"
-s1Main: "Monthly Analysis"
-s2Main: "Website Monitoring"
-s3Main: "Insight Tracking"
+6Heading: "Media Production"
+6Description: "The ability to tell a story through videos and photos, as well as making things move, is a powerful way to express ourselves."

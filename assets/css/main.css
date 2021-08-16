@@ -101,6 +101,7 @@ body {
 
 .nav__list .nav__item a {
   color: #181024 !important;
+  font-weight: bold;
 }
 
 .top__row {

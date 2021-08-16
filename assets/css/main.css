@@ -8,10 +8,8 @@
 
 @font-face {
   font-family: 'zBold';
-  src: url('assets/fonts/Zodiak-Black.eot'); /* IE9 Compat Modes */
-  src: url('assets/fonts/Zodiak-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('assets/fonts/Zodiak-Black.woff2') format('woff2'), /* Super Modern Browsers */
-       url('assets/fonts/Zodiak-Black.woff') format('woff'), /* Pretty Modern Browsers */
+  src: url('assets/fonts/zodiak-black-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/zodiak-black-webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('assets/fonts/Zodiak-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
@@ -98,14 +96,12 @@ body {
 
 h2 {
   font-size: 1.5vw;
-  font-family: 'zBold', Fallback, sans-serif;
   margin-bottom: 19px;
   font-weight: bold;
 }
 
 p {
   font-size: 1vw;
-  font-family: 'zBold', Fallback, sans-serif;
   line-height: 24px;
 }
 
@@ -184,7 +180,7 @@ section {
 
 h1 {
   font-size: 4.8vw;
-  font-family: 'zBold', Fallback, sans-serif;
+  font-family: 'zBold', Zodiak, sans-serif;
   font-weight: bold;
   width: 100%;
   line-height: normal;

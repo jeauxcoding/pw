@@ -272,12 +272,13 @@ button {
   gap: 20px;
   position: relative;
   background-color: #181024;
-  left: 68px;
+  left: 97px;
   bottom: -271px;
   color: white;
   padding: 1.3em 1.2em;
   z-index: 1;
-  width: 376px;
+  width: 100%;
+  max-width: 333px;
 }
 
 .project_details li {

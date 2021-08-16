@@ -132,8 +132,8 @@ p {
   padding: 5em 3.4em;
   flex-direction: column;
   align-items: baseline;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-right: 1px solid #181024;
+  border-bottom: 1px solid #181024;
   width: 33.33%;
 }
 
@@ -418,7 +418,7 @@ form button {
 
   .card {
     width: fit-content;
-    border-left: 1px solid black;
+    border-left: 1px solid #181024;
   }
 
   .top__row {

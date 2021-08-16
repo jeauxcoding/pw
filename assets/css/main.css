@@ -177,9 +177,10 @@ section {
 }
 
 h1 {
-  font-size: 4.8vw;
+  font-size: 4.3vw;
   font-family: 'zBold', Zodiak, sans-serif;
-  font-weight: bold;
+  font-weight: 900;
+  line-height: 1.1;
   width: 100%;
 }
 

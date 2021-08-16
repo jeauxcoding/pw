@@ -14,6 +14,21 @@
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+  font-family: 'HKGorotesk';
+  src: url('assets/fonts/hkgrotesk-black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/hkgrotesk-black.woff') format('woff'), /* Pretty Modern Browsers */
+
+       url('assets/fonts/hkgrotesk-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/hkgrotesk-bold.woff') format('woff'), /* Super Modern Browsers */
+
+       url('assets/fonts/hkgrotesk-light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/hkgrotesk-light.woff') format('woff'), /* Pretty Modern Browsers */
+
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
 body {
     background-color: #FAFAFA;
 }
@@ -79,7 +94,7 @@ body {
 
 .nav__list {
   display: flex;
-  font-family: 'zBold', Fallback, sans-serif;
+  font-family: 'HKGorotesk', sans-serif;
   padding: 2em;
   gap: 50px;
 }
@@ -121,15 +136,16 @@ p {
   font-size: 1.2rem;
 }
 
-.site-nav-list {
+.nav-list {
   padding: 2em;
+  font-family: 'zBold', Fallback, sans-serif;
 }
 
-.site-nav-list li {
+.nav-list li {
   padding-left: 65px;
 }
 
-.site-nav-list li  a {
+.nav-list li  a {
   font-size: 1em;
 
 }

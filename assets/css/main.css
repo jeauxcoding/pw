@@ -355,10 +355,10 @@ form button {
   }
 
   h1 {
-    font-size: 5.5vw;
+    font-size: 7.5vw;
+    line-height: 44px;
     margin-bottom: 19px;
-    font-weight: bold;
-    text-align: center;
+    font-weight: 800;
   }
 
   h2 {

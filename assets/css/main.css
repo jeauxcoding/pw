@@ -158,6 +158,10 @@ p {
 
 }
 
+.nav-list li a:hover {
+  color: #5500D4;
+}
+
 .button {
   width: 300px;
   height: 100%;

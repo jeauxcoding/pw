@@ -13,6 +13,18 @@ body {
   padding-right: 19px;
 }
 
+.center {
+  margin: 0 auto;
+  width: 100%;
+  max-width: min-content;
+
+}
+
+.logo {
+  font-size: 1.2em;
+  color: white;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -27,7 +39,7 @@ body {
 }
 
 .hero_info {
-  margin-top: 3em;
+  margin: 9em 0 19px;
 }
 
 .hero_info h1 {
@@ -123,15 +135,108 @@ body {
 
 .the__Perceptors h1 {
   font-size: 40px;
-  margin-bottom: 23px;
 }
 
 .the__Perceptors p {
+  margin: 25px 0;
   font-size: 20px;
   line-height: 1.4;
 }
 
+.nav__list {
+  display: flex;
+  gap: 40px;
+}
 
+.nav__item a {
+  font-size: 1.2em;
+  color: white;
+}
+
+.Case__Studies {
+  border: 1px solid #1B1B1B;
+  border-radius: 25px;
+  width: 100%;
+  max-width: fit-content;
+  max-height: 380px;
+  padding: 1em 0em;
+}
+
+.case__info {
+  padding: 2em 1.1em;
+}
+
+.case__info h2 {
+  font-size: 29px;
+  width: 350px;
+
+}
+
+.case__info ul {
+  padding: 35px;
+}
+
+.case__info ul li {
+  padding: 6px 0;
+}
+
+.case__showcase {
+  display: flex;
+}
+
+.Team__Portfolio {
+  display: flex;
+  position: relative;
+  right: 2em
+}
+
+.sbr_01_display_logo {
+  position: relative;
+  bottom: 0px;
+  top: 80px;
+}
+
+.sbr_01_display_eyewear img {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.sbr_01_display_eyewear p {
+  padding-left: 20px;
+}
+
+.TextSBR {
+  display: flex;
+  margin: 100px auto !important;
+}
+
+.testimony .card {
+  display: flex;
+  align-items: center;
+}
+
+.testimony h2 {
+  font-size: 20px;
+  padding-right: 15px;
+
+}
+
+.testimony .center {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 890px;
+}
+
+.testimony__article {
+  font-size: 26px;
+  line-height: 1.4;
+  padding: 23px 0;
+}
+
+.test__article .imgMiranda {
+  padding: 0 20px;
+
+}
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {

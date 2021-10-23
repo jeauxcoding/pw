@@ -3,8 +3,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+html {
   background-color: #FDFDFD;
+}
+
+body {
+
 }
 
 li {
@@ -402,6 +406,11 @@ form button {
 
 .FL {
   margin-bottom: 10em;
+}
+
+.footer__thrid {
+  font-family: 'PT Sans', sans-serif;
+  margin-bottom: 3em;
 }
 
 

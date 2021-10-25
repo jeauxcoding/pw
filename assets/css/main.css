@@ -274,7 +274,7 @@ li {
 
 .testimony h2 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 27px;
   color: #181024;
   padding-right: 10px;
@@ -413,7 +413,19 @@ form button {
   margin-bottom: 3em;
 }
 
+.footer__content  {
+  display: flex;
+  gap: 70px;
+}
 
+
+.DisplayMobile {
+  display: none;
+}
+
+.inline__SBR {
+  display: flex;
+}
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
@@ -422,5 +434,124 @@ form button {
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+    .top__row {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .nav__list {
+      display: none;
+    }
+
+    .DisplayDesktop {
+      display: none;
+    }
+
+    .bottom__row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero_info h1 {
+        font-size: 25pt;
+        text-align: center;
+    }
+
+    .hero_info p {
+      max-width: 100%;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .ButtonInline {
+      text-align: center;
+    }
+
+    .case__showcase {
+      flex-direction: column;
+    }
+
+    .Team__Portfolio {
+      display: none;
+    }
+
+    .sbr_01_display_eyewear p {
+      padding-left: 0px;
+      text-align: center;
+    }
+
+    .sbr_01_display_eyewear img {
+      padding-left: 0px;
+      padding-bottom: 20px;
+    }
+
+    .sbr_01_display_logo {;
+        top: 0px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__secoud {
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .content__flex_footer__newsletter h2 {
+        margin: 0 auto;
+    }
+
+    .footer__secoud .card-one {
+        margin: 0 auto;
+    }
+
+    .footer__secoud .card-two {
+        flex-direction: column;
+    }
+
+    .case__info img {
+        left: 197px;
+        top: -40px;
+        width: 179px;
+        position: relative;
+    }
+
+    .testimony h3 {
+      font-size: 49px;
+    }
+
+    .testimony h2 {
+      font-size: 16px;
+    }
+
+    .testimony img {
+      width: 106px;
+    }
+
+    .testimony .center {
+      width: 87%;
+    }
+
+    .testimony__article {
+      font-size: 22px;
+    }
+
+    .content__flex_footer__newsletter h2 {
+      padding-bottom: 0.9em;
+    }
+
+    .footer__content {
+      flex-direction: column;
+      gap: 50px;
+      padding: 4em 0;
+    }
+
+    .footer__clutch {
+      padding: 2em 0;
+      width: 197px;
+      margin: 0 auto;
+    }
 }
